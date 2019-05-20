@@ -12,56 +12,55 @@
     <title>Home</title>
 </head>
 <body>
-    <!--Starting of navigation bar-->
+    <div class="container">
+        <!--Starting of navigation bar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="row col-12">
-            <div class="container-fluid">  
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="#">Ganpati Rathia</a>
+            <div class="row col-12">
+                <div class="container-fluid">  
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+                        <a class="navbar-brand" href="#">Ganpati Rathia</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="blog.html">My Blog</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="blog.html">My Blog</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
+            </div>
+        </nav>
+        <!--End of navigation bar-->
+    
+        <div class="container-fluid">
+            <!--Starting of profile picture-->
+            <div class="row col-12 navbar-inverse">
+                <div class="col-4">
+                  <img src="images/user.jpg" class="img-responsive img-circle" alt="user" style="margin-top: 10%;margin-bottom: 10%;height: 20% ; width: 20%">
+                </div>
+                <div class="col-4">
+                    <h5>THIS IS ME</h5>
+                    <h2>GANPATI RATHIA</h2>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!--End of navigation bar-->
-
-    <div class="container-fluid">
-        <!--Starting of profile picture-->
-        <div class="row col-12 navbar-inverse">
-            <div class="col-4">
-              <img src="images/user.jpg" class="img-responsive img-circle" alt="user" style="margin-top: 10%;margin-bottom: 10%;height: 20% ; width: 20%">
+            <!--End of profile picture-->
+                
+            <!--Starting of About Me-->
+            <div class="jumbotron container-fluid navbar-inverse">
+                <h3>About Myself</h3>
+                <p>I'm CSE undergraduate.</p>
             </div>
-            <div class="col-4">
-                <h5>THIS IS ME</h5>
-                <h2>GANPATI RATHIA</h2>
-            </div>
+            <!--End of About Me-->
         </div>
-        <!--End of profile picture-->
-            
-        <!--Starting of About Me-->
-        <div class="jumbotron container-fluid navbar-inverse">
-            <h3>About Myself</h3>
-            <p>I'm CSE undergraduate.</p>
-        </div>
-        <!--End of About Me-->
-    </div>
-    
-    
-    
+    </div>    
 </body>
 </html>
